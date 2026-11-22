@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midnight at the Marlowe — a heist in three acts</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0a1214; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: system-ui, sans-serif; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #0c1416; }
+  #note { color: #5a7076; font-size: 12px; text-align: center; padding: 8px 0 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div id="note">Midnight at the Marlowe — WASD/arrows to move, Shift to sneak, 1/2/3 + Space for tools, R to restart, M to mute. No network needed.</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
